@@ -1,4 +1,6 @@
 // Leetcode 498
+// Time Complexity: O(m · n)
+// Space Complexity: O(m · n)
 
 import java.util.*;
 public class DiagonalTraverse{

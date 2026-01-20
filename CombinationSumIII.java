@@ -1,4 +1,6 @@
 // leetcode 216
+// Time Complexity: O(C(9, k) · k)
+// Space Complexity: O(k)
 
 import java.util.*;
 

@@ -1,4 +1,6 @@
-// leetcode 140
+// // leetcode 140
+// Time Complexity: O(2ⁿ · n)
+// Space Complexity: O(n) (recursion stack, excluding output)
 
 import java.util.*;
 

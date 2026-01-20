@@ -1,5 +1,8 @@
 // leetcode 1
 
+// time - o(n)
+// space - o(n)
+
 import java.util.*;
 
 public class TwoSum {

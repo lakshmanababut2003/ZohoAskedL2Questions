@@ -1,4 +1,7 @@
 // leetcode 135
+// time - o(n)
+// space - o(1)
+
 
 public class Candy {
 

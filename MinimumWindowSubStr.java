@@ -1,4 +1,6 @@
 // leetcode 76
+// Time Complexity: O(n)
+// Space Complexity: O(1) (since the array size is fixed at 128)
 
 public class MinimumWindowSubStr {
 

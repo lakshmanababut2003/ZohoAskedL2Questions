@@ -1,4 +1,8 @@
 // leetcode 40
+// Time Complexity: O(2^n · k)
+// Space Complexity: O(k)
+
+// (where n = number of elements, k = average length of a combination)
 
 import java.util.*;
 

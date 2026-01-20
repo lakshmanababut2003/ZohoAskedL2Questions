@@ -1,5 +1,8 @@
 // Leetcode 242
 
+// time - o(n)
+// space - o(26)
+
 public class ValidAnagram {
 
     public static void main(String[] args) {

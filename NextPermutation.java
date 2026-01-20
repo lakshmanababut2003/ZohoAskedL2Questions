@@ -1,4 +1,6 @@
 // leetcode 31
+// time -o(n)
+// space - o(1)
 
 import java.util.Arrays;
 

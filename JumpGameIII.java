@@ -1,4 +1,6 @@
 // leetcode 1306
+// time - o(n)
+// space - o(n) - reursion stack
 
 public class JumpGameIII {
 

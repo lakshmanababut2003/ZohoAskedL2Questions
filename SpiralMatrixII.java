@@ -1,4 +1,6 @@
 // leetcode 59
+// Time Complexity: O(n²)
+// Space Complexity: O(1) (excluding the output matrix)
 
 import java.util.*;
 

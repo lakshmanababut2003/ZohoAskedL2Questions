@@ -1,4 +1,6 @@
 // leetcode 18
+// Time Complexity: O(n³)
+// Space Complexity: O(1) (excluding output list)
 
 import java.util.*;
 
@@ -6,8 +8,8 @@ public class FourSum {
 
     public static void main(String[] args) {
         
-        int[] arr = new int[] {1,0,-1,0,-2,2};
-        int target = 0;
+        int[] arr = new int[] {1000000000,1000000000,1000000000,1000000000};
+        int target = -294967296;
 
         List<List<Integer>> ans = new ArrayList<>();
 
@@ -31,7 +33,7 @@ public class FourSum {
 
                 while(k < l){
 
-                    long sum = arr[i] +arr[j] + arr[k] + arr[l];
+                    long sum =(long) arr[i] +arr[j] + arr[k] + arr[l];
 
                     if(sum == target){
                         ans.add(Arrays.asList(arr[i] , arr[j] , arr[k] , arr[l]));

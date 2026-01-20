@@ -1,5 +1,11 @@
 // leetcode 51
 
+// Time Complexity: O(n!)
+// Space Complexity: O(n² + n)
+
+// O(n!) comes from trying all possible queen placements row by row.
+// O(n²) for storing the board configurations, O(n) for recursion stack.
+
 import java.util.*;
 
 

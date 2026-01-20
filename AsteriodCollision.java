@@ -1,4 +1,6 @@
 // leetcode 735
+// time - o(n)
+// space - o(n)
 
 import java.util.*;
 

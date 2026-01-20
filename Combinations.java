@@ -1,4 +1,6 @@
 // leetcode 77
+// Time Complexity: O(C(n, k) · k)
+// Space Complexity: O(k)
 
 import java.util.*;
 

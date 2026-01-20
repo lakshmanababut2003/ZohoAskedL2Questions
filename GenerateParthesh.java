@@ -1,4 +1,8 @@
 // leetcode 22
+// Time Complexity: O(Cₙ · n)
+// Space Complexity: O(n)
+
+// (where Cₙ is the nᵗʰ Catalan number)
 
 import java.util.*;
 

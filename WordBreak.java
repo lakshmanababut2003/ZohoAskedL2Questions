@@ -1,5 +1,9 @@
 // leetcode 139
 
+// Time Complexity: O(n · m · k)
+// Space Complexity: O(n)
+// (where n = length of string s, m = number of words in the dictionary, k = average word length)
+
 import java.util.*;
 
 public class WordBreak {

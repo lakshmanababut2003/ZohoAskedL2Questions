@@ -1,5 +1,9 @@
 // leetcode 79
 
+// Time Complexity: O(m · n · 4ˡ)
+// Space Complexity: O(m · n) (visited array + recursion stack)
+// (where l = length of the word)
+
 public class WordSearch {
     
     public static void main(String[] args) {
@@ -10,7 +14,7 @@ public class WordSearch {
             {'A' , 'D' , 'E' , 'E'}
         };
 
-        String s = "ABCCE";
+        String s = "ABCB";
 
         
         int m = board.length;
@@ -43,6 +47,8 @@ public class WordSearch {
         if(i<0 || i>=b.length || j<0 || j>=b[0].length || dp[i][j] || s.charAt(k) != b[i][j]){
             return false;
         }
+
+        dp[i][j] = true;
 
         if(dfs(b , dp , s , i+1 , j , k+1) || 
             dfs(b , dp , s , i-1,j,k+1) ||

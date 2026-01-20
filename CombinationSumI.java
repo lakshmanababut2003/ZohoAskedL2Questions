@@ -1,4 +1,8 @@
 // leetcode 39
+// Time Complexity: O(2^t · k)
+// Space Complexity: O(k)
+
+// (where t = target / min(arr) and k = average combination length)
 
 import java.util.*;
 

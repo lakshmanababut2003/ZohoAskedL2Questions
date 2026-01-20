@@ -1,5 +1,8 @@
 // leetcode 162
 
+// time - o(log n)
+// space -o(1)
+
 public class PeakElement {
 
     public static void main(String[] args) {

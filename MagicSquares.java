@@ -1,4 +1,7 @@
 // Leetcode 840
+// Time Complexity: O(m · n)
+// Space Complexity: O(1)
+
 import java.util.*;
 
 public class MagicSquares{

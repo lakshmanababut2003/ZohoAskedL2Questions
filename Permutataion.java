@@ -1,5 +1,8 @@
 // leetcode 46
 
+// Time Complexity: O(n · n!)
+// Space Complexity: O(n)
+
 import java.util.*;
 
 public class Permutataion {

@@ -1,5 +1,8 @@
 // Leetcode 66
 
+// time - o(n)
+// space - o(1)
+
 import java.util.*;
 
 public class PlusOne{

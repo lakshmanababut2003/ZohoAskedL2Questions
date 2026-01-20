@@ -1,5 +1,8 @@
 // Leetcode - 239
 
+// time - o(n)
+// space - o(k)
+
 import java.util.*;
 
 public class SlidingWindowMax {

@@ -1,4 +1,6 @@
 // leetcode  47(contains duplicate)
+// Time Complexity: O(n · n!)
+// Space Complexity: O(n · n!) (due to storing all unique permutations in the set)
 
 import java.util.*;
 

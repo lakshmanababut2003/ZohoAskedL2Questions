@@ -1,4 +1,6 @@
 // leetcode 37
+// Time Complexity: O(9⁸¹) (worst case, backtracking)
+// Space Complexity: O(81) (recursion stack)
 
 public class SudokoSolver {
 

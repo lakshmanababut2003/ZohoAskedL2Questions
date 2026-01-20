@@ -1,4 +1,8 @@
 // Leetcode - 49
+// Time Complexity: O(n · k log k)
+// Space Complexity: O(n · k)
+
+// (where n = number of strings, k = average length of a string)
 
 import java.util.*;
 

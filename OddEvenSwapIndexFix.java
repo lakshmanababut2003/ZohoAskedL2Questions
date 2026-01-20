@@ -7,6 +7,9 @@
 // Input: 9 4 3 2 7 8 5
 //  Output: 3 8 5 4 7 2 9
 
+// time - o(n2)
+// space - o(1)
+
 import java.util.Arrays;
 
 public class OddEvenSwapIndexFix {
@@ -37,7 +40,7 @@ public class OddEvenSwapIndexFix {
                 int minInd = i;
 
                 for(int j=i+1;j<n;j++){
-                    if(arr[i] > arr[j] && arr[j] % 2 != 0){
+                    if(arr[minInd] > arr[j] && arr[j] % 2 != 0){
                         minInd = j;
                     }
                 }

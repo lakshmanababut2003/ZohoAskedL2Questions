@@ -1,4 +1,9 @@
 // leetcode 52
+// Time Complexity: O(n!)
+// Space Complexity: O(n² + n)
+
+// O(n!) for all possible queen placements.
+// O(n²) for the board, O(n) for recursion stack.
 
 public class NQueensII {
 

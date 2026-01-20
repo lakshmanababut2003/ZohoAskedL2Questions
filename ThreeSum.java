@@ -1,5 +1,8 @@
 // leetcode 15
 
+// Time Complexity: O(n²)
+// Space Complexity: O(1) (excluding output list)
+
 import java.util.*;
 
 public class ThreeSum {

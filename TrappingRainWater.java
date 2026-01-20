@@ -1,5 +1,8 @@
 // leetcode 42
 
+// time - o(n)
+// space - o(1)
+
 public class TrappingRainWater {
 
     public static void main(String[] args) {

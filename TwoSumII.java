@@ -1,5 +1,8 @@
 // leetcode 167
 
+// time - O(n)
+// space -o(1)
+
 public class TwoSumII {
 
     public static void main(String[] args) {

@@ -1,4 +1,7 @@
 // leetcode 799
+// time - o(r sqauare)
+// space - o(r sqauare) r means query_row
+
 
 public class ChampionTower {
 

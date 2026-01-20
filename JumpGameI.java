@@ -1,4 +1,6 @@
 // leetcode 55
+// time - o(n)
+// space - o(1)
 
 public class JumpGameI {
 

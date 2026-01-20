@@ -1,5 +1,7 @@
 
 // leetcode 5
+// Time Complexity: O(n²)
+// Space Complexity: O(1)
 
 public class LongestPalindromicStr {
 
