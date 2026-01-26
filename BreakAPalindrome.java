@@ -4,7 +4,7 @@ public class BreakAPalindrome {
 
     public static void main(String[] args) {
         
-        String s = "abbcbba";
+        String s = "aba";
 
         char[] arr = s.toCharArray();
 

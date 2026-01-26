@@ -9,8 +9,8 @@ public class NextGreaterEle {
 
     public static void main(String[] args) {
 
-        int[] arr1 = new int[] {4,1,2};
-        int[] arr2 = new int[]{1,3,4,2};
+        int[] arr1 = new int[] {1,3,5,2,4};
+        int[] arr2 = new int[]{6,5,4,3,2,1,7};
         
         HashMap<Integer , Integer> map = new HashMap<>();
         Stack<Integer> st = new Stack<>();
