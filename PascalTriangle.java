@@ -1,5 +1,12 @@
 // leetcode 118
 
+// Time Complexity:
+// O(n²)
+
+// Space Complexity:
+// O(n²) (including output)
+// O(n) auxiliary space
+
 import java.util.*;
 
 public class PascalTriangle {

@@ -37,43 +37,43 @@ public class FirstMissingPositive {
         System.out.println(target);
     }
 
-    private static void sort(int[] arr , int l , int r){
+    // private static void sort(int[] arr , int l , int r){
 
-        if(l > r){
-            return;
-        }
+    //     if(l > r){
+    //         return;
+    //     }
 
-        int randomInd = l + (random.nextInt(r-l+1));
-        swap(arr , l ,randomInd);
+    //     int randomInd = l + (random.nextInt(r-l+1));
+    //     swap(arr , l ,randomInd);
 
-        int pivot = arr[l];
-        int lt = l;
-        int gt = r;
-        int i=l+1;
+    //     int pivot = arr[l];
+    //     int lt = l;
+    //     int gt = r;
+    //     int i=l+1;
 
-        while(i <= gt){
-            if(arr[i] < pivot){
-                swap(arr , lt , i);
-                lt++;
-                i++;
-            }
-            else if(arr[i] > pivot){
-                swap(arr , i , gt);
-                gt--;
-            }
-            else{
-                i++;
-            }
-        }
+    //     while(i <= gt){
+    //         if(arr[i] < pivot){
+    //             swap(arr , lt , i);
+    //             lt++;
+    //             i++;
+    //         }
+    //         else if(arr[i] > pivot){
+    //             swap(arr , i , gt);
+    //             gt--;
+    //         }
+    //         else{
+    //             i++;
+    //         }
+    //     }
 
-        sort(arr , l , lt-1);
-        sort(arr , gt+1 , r);
-    }
+    //     sort(arr , l , lt-1);
+    //     sort(arr , gt+1 , r);
+    // }
 
-    private static void swap(int[] arr ,int i, int j){
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j]=temp;
-    }
+    // private static void swap(int[] arr ,int i, int j){
+    //     int temp = arr[i];
+    //     arr[i] = arr[j];
+    //     arr[j]=temp;
+    // }
     
 }

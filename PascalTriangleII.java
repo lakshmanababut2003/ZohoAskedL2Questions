@@ -1,5 +1,8 @@
 // leetcode 119
 
+// time o(rowIndex)
+// space - o(1)
+
 import java.util.*;
 
 public class PascalTriangleII {

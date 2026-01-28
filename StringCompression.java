@@ -1,5 +1,8 @@
 // leetcode 443
 
+//time o(n)
+// space o(1)
+
 public class StringCompression {
 
     public static void main(String[] args) {
@@ -22,6 +25,7 @@ public class StringCompression {
                 }
                 else{
                     sb.append(arr[i]).append(count);
+                    count=1;
                 }
             }
 
