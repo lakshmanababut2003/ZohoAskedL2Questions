@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LetterCombofPhoneNum",
+            "request": "launch",
+            "mainClass": "LetterCombofPhoneNum",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "NonOverlapInterval",
+            "request": "launch",
+            "mainClass": "NonOverlapInterval",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "MinimumPathSum",
+            "request": "launch",
+            "mainClass": "MinimumPathSum",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
