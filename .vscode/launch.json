@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TopKFreqElements",
+            "request": "launch",
+            "mainClass": "TopKFreqElements",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "WordSearchII",
+            "request": "launch",
+            "mainClass": "WordSearchII",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
             "name": "LetterCombofPhoneNum",
             "request": "launch",
             "mainClass": "LetterCombofPhoneNum",
