@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AdditionWithoutOpearator",
+            "request": "launch",
+            "mainClass": "AdditionWithoutOpearator",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "DistributeCoins",
+            "request": "launch",
+            "mainClass": "DistributeCoins",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterEle",
+            "request": "launch",
+            "mainClass": "NextGreaterEle",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "DecodeWaysII",
+            "request": "launch",
+            "mainClass": "DecodeWaysII",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "DailyTemperature",
+            "request": "launch",
+            "mainClass": "DailyTemperature",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "IsSubSeq",
+            "request": "launch",
+            "mainClass": "IsSubSeq",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
             "name": "TopKFreqElements",
             "request": "launch",
             "mainClass": "TopKFreqElements",

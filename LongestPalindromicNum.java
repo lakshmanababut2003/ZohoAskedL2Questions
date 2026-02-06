@@ -12,7 +12,7 @@ public class LongestPalindromicNum {
         int[] occur = new int[10];
 
         for(char c : s.toCharArray()){
-            occur[c-48]++;
+            occur[c-48]++;  
         }
 
         int single =-1;

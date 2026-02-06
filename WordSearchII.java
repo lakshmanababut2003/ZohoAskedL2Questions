@@ -43,6 +43,7 @@ public class WordSearchII {
             return ;
         }
 
+        b[i][j] = '-';
         Trie nextNode = curr.next[c-'a'];
 
         if(nextNode.word != null){

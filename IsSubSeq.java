@@ -7,8 +7,8 @@ public class IsSubSeq {
 
     public static void main(String[] args) {
         
-        String s = "abc";
-        String t = "ahbxc";
+        String s = "Alex";
+        String t = "Alexuu";
 
         int sp =0 , tp=0;
 
