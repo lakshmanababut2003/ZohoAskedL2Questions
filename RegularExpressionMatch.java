@@ -44,7 +44,7 @@ public class RegularExpressionMatch {
                     dp[i][j] = dp[i][j-2];
                     char prev = p.charAt(j-2);
 
-                    if(prev == '.' || pc == sc){
+                    if(prev == '.' || prev == sc){
                         dp[i][j] |= dp[i-1][j];
                     }
                 }

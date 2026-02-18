@@ -17,7 +17,6 @@
 
 // i = 5: Use coin 1. dp[5] = min(6, 1 + dp[4]) = 3. Use coin 2. dp[5] = min(3, 1 + dp[3]) = 3. Use coin 5. dp[5] = min(3, 1 + dp[0]) = 1. dp is [0, 1, 1, 2, 2, 1]
 
-// Final answer is dp[5], which is 1. 500 , 3,5,7,8,9,10,11
 
 import java.util.*;
 

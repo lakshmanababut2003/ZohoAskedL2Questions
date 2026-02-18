@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CoinChangeI",
+            "request": "launch",
+            "mainClass": "CoinChangeI",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "CoinChangeII",
+            "request": "launch",
+            "mainClass": "CoinChangeII",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "RemoveDuplicate",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindowMax",
+            "request": "launch",
+            "mainClass": "SlidingWindowMax",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "LongestBalancedSubStrI",
+            "request": "launch",
+            "mainClass": "LongestBalancedSubStrI",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "CricketScore",
+            "request": "launch",
+            "mainClass": "CricketScore",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "Panagram",
+            "request": "launch",
+            "mainClass": "Panagram",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "ChirstmasTreePattern",
+            "request": "launch",
+            "mainClass": "ChirstmasTreePattern",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
+            "name": "LongestBalancedSubArrI",
+            "request": "launch",
+            "mainClass": "LongestBalancedSubArrI",
+            "projectName": "Zoho Asked_26cbf4dc"
+        },
+        {
+            "type": "java",
             "name": "AdditionWithoutOpearator",
             "request": "launch",
             "mainClass": "AdditionWithoutOpearator",

@@ -4,7 +4,7 @@ public class DecodeWaysII {
 
     public static void main(String[] args) {
         
-        String s = "111111111111";
+        String s = "112";
 
         if(s.length() > 20){
             System.out.println("Too many Combinations");
